@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <form method="post" action="https://bluecrest.edu.gh">
+        <h1> Feedback Form </h1>
+        <p><strong> Please fill out this form to help us improve our site.</strong></p>
+
+        <!-- Name -->
+        <p>
+        <label> Name:
+            <input name="name" type="text">
+        </label>
+        </p>
+
+        <p>
+        <!-- Email -->
+        <label> Email:
+            <input name="email" type="email">
+        </label>
+        </p>
+
+        <p>
+            <strong> What do you like about the college?</strong>
+        </p>
+        <p>
+            <!-- checkbox -->
+            <label>
+                <input name="campus" type="checkbox" value="campus"> Campus
+            </label>
+
+            <label>
+                <input name="students" type="checkbox" value="students"> Students
+            </label>
+
+            <label>
+                <input name="location" type="checkbox" value="location"> Location
+            </label>
+
+            <label>
+                <input name="atmosphere" type="checkbox" value="atmosphere"> Atmosphere
+            </label>
+
+            <label>
+                <input name="dorm rooms" type="checkbox" value="dorm rooms"> Dorm rooms
+            </label>
+
+            <label>
+                <input name="sports" type="checkbox" value="sports"> Sports
+            </label>
+        </p>
+
+        <p>
+            <strong> How did you become interested in the college?</strong>
+        </p>
+        <p>
+            <!-- radio -->
+            <label>
+                <input name="interested" type="radio" value="friends"> Friends
+            </label>
+
+            <label>
+                <input name="interested" type="radio" value="television"> Television
+            </label>
+
+            <label>
+                <input name="interested" type="radio" value="internet"> Internet
+            </label>
+
+            <label>
+                <input name="interested" type="radio" value="other"> Other
+            </label>
+        </p>
+
+        <p>
+            <!-- textarea -->
+            <label>
+                <strong> Please add a comment: </strong><br>
+                <textarea name="comments" rows="5" cols="30"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <!-- submit button -->
+            <input type="Submit" value="Submit" >
+            <!-- reset button -->
+            <input type="Reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
